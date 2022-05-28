@@ -18,7 +18,7 @@ public class PlayerMovement : MonoBehaviour
     //awake is called everytime the script is loaded
     private void Awake()
     {
-        //grab references for rigidbody and animator from object
+        //grab references from object
         body = GetComponent<Rigidbody2D>();
         anim = GetComponent<Animator>();
         boxCollider = GetComponent<BoxCollider2D>();
@@ -105,5 +105,11 @@ public class PlayerMovement : MonoBehaviour
         //first one in BoxCast is origin of the box, second one is the size of it, third is angle to rotate
         RaycastHit2D raycastHit = Physics2D.BoxCast(boxCollider.bounds.center, boxCollider.bounds.size, 0, new Vector2(transform.localScale.x, 0), 0.1f, wallLayer);
         return raycastHit.collider != null;
+    }
+
+    //defines when player can attack
+    public bool canAttack ()
+    {
+        return horizontalInput == 0 && isGrounded() && !onWall();
     }
 }
