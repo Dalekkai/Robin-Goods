@@ -1405,6 +1405,26 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 1
   m_Constraints: 4
+--- !u!114 &786041013
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 786041008}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0aed211d57fd00845b681a9675c7d912, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  speed: 5
+  jumpPower: 9
+  groundLayer:
+    serializedVersion: 2
+    m_Bits: 256
+  wallLayer:
+    serializedVersion: 2
+    m_Bits: 512
 --- !u!95 &786041014
 Animator:
   serializedVersion: 4
@@ -1439,26 +1459,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   firePoint: {fileID: 1640230436}
   magicPrefab: {fileID: 6465799824163590670, guid: ccdf84bb15f46a649b2c6f39030d7af0, type: 3}
---- !u!114 &786041016
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 786041008}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0aed211d57fd00845b681a9675c7d912, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  speed: 5
-  jumpPower: 8
-  groundLayer:
-    serializedVersion: 2
-    m_Bits: 256
-  wallLayer:
-    serializedVersion: 2
-    m_Bits: 512
 --- !u!1001 &818788856
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2560,7 +2560,7 @@ MonoBehaviour:
     ModeOverride: 0
     LensShift: {x: 0, y: 0}
     GateFit: 2
-    m_SensorSize: {x: 2.3954248, y: 1}
+    m_SensorSize: {x: 2.1153846, y: 1}
   m_Transitions:
     m_BlendHint: 0
     m_InheritPosition: 0
