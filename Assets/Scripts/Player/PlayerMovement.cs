@@ -37,18 +37,20 @@ public class PlayerMovement : MonoBehaviour
             crouch = false;
         }
     }
+
+    //checks if player is jumping
     public void OnLanding()
     {
         animator.SetBool("IsJumping", false);
     }
-
+    //checks if player is crouching
     public void OnCrouching(bool isCrouching)
     {
         animator.SetBool("IsCrouching", isCrouching);
     }
     private void FixedUpdate()
     {
-        //Move the character
+        //Move the player
         controller.Move(horizontalMove * Time.fixedDeltaTime, crouch, jump);
         jump = false;
 
