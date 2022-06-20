@@ -2988,7 +2988,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   firePoint: {fileID: 1513546257}
-  magicPrefab: {fileID: 6465799824163590670, guid: ccdf84bb15f46a649b2c6f39030d7af0, type: 3}
+  playerBullet: {fileID: 992400587785795940, guid: 3d18c0b0c5e6d3342b13959f99aa3f5c, type: 3}
+  Force: 30
 --- !u!114 &786041020
 MonoBehaviour:
   m_ObjectHideFlags: 0

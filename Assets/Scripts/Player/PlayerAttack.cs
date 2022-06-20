@@ -5,7 +5,8 @@ using UnityEngine;
 public class PlayerAttack : MonoBehaviour
 {
     public Transform firePoint;
-    public GameObject magicPrefab;
+    public GameObject playerBullet;
+    public float Force;
 
     private void Update()
     {
@@ -16,6 +17,7 @@ public class PlayerAttack : MonoBehaviour
     }
     void Shoot()
     {
-        Instantiate(magicPrefab, firePoint.position, firePoint.rotation);
+        GameObject BulletIns = Instantiate(playerBullet, firePoint.position, Quaternion.identity);
+        BulletIns.GetComponent<Rigidbody2D>().velocity = transform.right * Force;
     }
 }
