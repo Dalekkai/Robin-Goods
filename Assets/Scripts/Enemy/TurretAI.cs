@@ -14,12 +14,10 @@ public class TurretAI : MonoBehaviour
     public Transform Shootpoint;
     public float Force;
     
-    // Start is called before the first frame update
     void Start()
     {
         
     }
-    // Update is called once per frame
     void Update()
     {
         Vector2 targetPos = Target.position;
@@ -28,10 +26,7 @@ public class TurretAI : MonoBehaviour
         if (rayInfo)
         {
            // if(rayInfo.collider.gameObject.tag == "Player") Funktioniert nur ausgeklammert?
-            //{
-
-            
-                Debug.Log("Kontakt");
+            //{                
                 if (Detected == false)
                 {
                     Detected = true;

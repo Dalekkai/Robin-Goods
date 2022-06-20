@@ -5,12 +5,14 @@ using UnityEngine.SceneManagement;
 
 public class LevelLoader : MonoBehaviour
 {
-    private void OnCollisionEnter(Collision other) 
+
+    public void LoadLevel(int level) //Loads a the next level with the index passed
     {
-        if(other.gameObject.tag == "Player")
-        {
-            Debug.Log("Hello");
-            SceneManager.LoadScene(1);
-        }   
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex +1);
+    }
+
+        public static void Respawn() //Loads the current level again
+    {
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
     }
 }
