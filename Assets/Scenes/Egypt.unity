@@ -1015,7 +1015,7 @@ GameObject:
   - component: {fileID: 274300553}
   m_Layer: 7
   m_Name: EnemyFly
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1465,6 +1465,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 2860150279273819590, guid: d0ce36e847c88b24a88d9aaa9e3a1d26, type: 3}
+      propertyPath: m_TagString
+      value: Player
+      objectReference: {fileID: 0}
     - target: {fileID: 6026265746114300587, guid: d0ce36e847c88b24a88d9aaa9e3a1d26, type: 3}
       propertyPath: m_RootOrder
       value: 6
@@ -1608,7 +1612,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 92cff233581d2b74495f27541a6e52bc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  maxHealth: 5
+  maxHealth: 10
   currentHealth: 0
   healthBar: {fileID: 1849773527}
 --- !u!1 &419237918
@@ -1868,7 +1872,7 @@ MonoBehaviour:
     ModeOverride: 0
     LensShift: {x: 0, y: 0}
     GateFit: 2
-    m_SensorSize: {x: 1.7763158, y: 1}
+    m_SensorSize: {x: 1.7764705, y: 1}
   m_Transitions:
     m_BlendHint: 0
     m_InheritPosition: 0
@@ -5145,6 +5149,10 @@ PrefabInstance:
     - target: {fileID: 624988953010368638, guid: 151e940b98696404fbea28f335db2444, type: 3}
       propertyPath: m_Name
       value: Fighter
+      objectReference: {fileID: 0}
+    - target: {fileID: 624988953010368638, guid: 151e940b98696404fbea28f335db2444, type: 3}
+      propertyPath: m_TagString
+      value: Enemy
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 151e940b98696404fbea28f335db2444, type: 3}

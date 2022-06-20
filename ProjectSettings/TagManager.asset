@@ -7,6 +7,9 @@ TagManager:
   - Ground
   - Bullet
   - Trap
+  - Enemy
+  - FighterHit
+  - MummyHit
   layers:
   - Default
   - TransparentFX

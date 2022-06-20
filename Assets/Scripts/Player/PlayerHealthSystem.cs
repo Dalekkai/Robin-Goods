@@ -18,7 +18,7 @@ public class PlayerHealthSystem : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-         if(currentHealth == 0){
+         if(currentHealth <= 0){
             Debug.Log("Tod");
             LevelLoader.Respawn();
         }
@@ -27,11 +27,21 @@ public class PlayerHealthSystem : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D other) 
     {
-        
-         if(other.gameObject.tag == "Bullet")// Zwei Collider? Isabel fragen
-        {
-            TakeDamage(1);
-        }
+       switch(other.gameObject.tag)
+       {
+           case "Bullet": // The dmg form shots 
+           TakeDamage(1);
+           break;
+           case "MummyHit": // The dmg from mummy hits
+           TakeDamage(2);
+           break;
+           case "FighterHit": // The dmg from fighter hits 
+           TakeDamage(4);
+           break;
+           default:
+           break;
+       }
+
     }
 
     void TakeDamage(int damage)
