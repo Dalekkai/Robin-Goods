@@ -17,8 +17,7 @@ public class PlayerMovement : MonoBehaviour
     {
         horizontalMove = Input.GetAxisRaw("Horizontal") * runSpeed;
 
-        //if I make a running animation, this will trigger it, need to make a transition in the Animator back and forth from Idle
-        //animator.SetFloat("Speed", Mathf.Abs(horizontalMove));
+        animator.SetFloat("Speed", Mathf.Abs(horizontalMove));
 
         //Jumping
         if(Input.GetButtonDown("Jump"))
