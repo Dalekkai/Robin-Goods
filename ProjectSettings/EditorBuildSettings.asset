@@ -9,8 +9,17 @@ EditorBuildSettings:
     path: Assets/Scenes/Menu.unity
     guid: 3a33a0a849ea2f84a92220d74c1d9580
   - enabled: 1
-    path: Assets/Scenes/Egypt/InsideMuseum 1.unity
+    path: Assets/Scenes/Egypt/MuseumEntrance.unity
+    guid: 0a342fd9c62726849b555321b364573c
+  - enabled: 1
+    path: Assets/Scenes/Egypt/DinoRoom.unity
     guid: 96ddb0fb0bb6ef04696cffbb7cbb3dc7
+  - enabled: 1
+    path: Assets/Scenes/Egypt/Vent.unity
+    guid: b8f09a29f3c70144b86a6351fc978b86
+  - enabled: 1
+    path: Assets/Scenes/Egypt/EgyptMusem.unity
+    guid: 8cff0a27d7bc4f7489514b4b67a72f3e
   - enabled: 1
     path: Assets/Scenes/Egypt/Egypt.unity
     guid: 57e846a53650d9d438ceb7f3f39b7464

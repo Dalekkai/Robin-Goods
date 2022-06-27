@@ -13,6 +13,7 @@ TagManager:
   - PlayerBullet
   - Vent
   - Tool
+  - Death
   layers:
   - Default
   - TransparentFX

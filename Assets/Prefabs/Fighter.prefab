@@ -69,6 +69,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Fighter
       objectReference: {fileID: 0}
+    - target: {fileID: 1646274159507638, guid: 6d346bf00349e2f48b2b88e47cd41850, type: 3}
+      propertyPath: m_TagString
+      value: Enemy
+      objectReference: {fileID: 0}
     - target: {fileID: 4064023264049688, guid: 6d346bf00349e2f48b2b88e47cd41850, type: 3}
       propertyPath: m_LocalPosition.y
       value: 0.022999845
@@ -87,11 +91,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4200172948467888, guid: 6d346bf00349e2f48b2b88e47cd41850, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0
+      value: 13.56
       objectReference: {fileID: 0}
     - target: {fileID: 4200172948467888, guid: 6d346bf00349e2f48b2b88e47cd41850, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0
+      value: -1.09
       objectReference: {fileID: 0}
     - target: {fileID: 4200172948467888, guid: 6d346bf00349e2f48b2b88e47cd41850, type: 3}
       propertyPath: m_LocalPosition.z
@@ -191,19 +195,6 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.17326164, y: 0.62420976}
   m_EdgeRadius: 0
---- !u!114 &6935325780689809062
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 624988953010368638}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9f535acea6b61c24e820937a60ff06b8, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  moveSpeed: 1
 --- !u!114 &2456393461786154725
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -218,3 +209,37 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   maxHealth: 6
   currentHealth: 0
+--- !u!114 &6935325780689809062
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 624988953010368638}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9f535acea6b61c24e820937a60ff06b8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  moveSpeed: 1
+--- !u!50 &1570222943
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 624988953010368638}
+  m_BodyType: 1
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 1
+  m_Material: {fileID: 0}
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 0
