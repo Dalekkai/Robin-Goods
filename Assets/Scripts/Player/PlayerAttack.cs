@@ -17,7 +17,8 @@ public class PlayerAttack : MonoBehaviour
     }
     void Shoot()
     {
-        GameObject BulletIns = Instantiate(playerBullet, firePoint.position, Quaternion.identity);
+        GameObject BulletIns = Instantiate
+        (playerBullet, firePoint.position, Quaternion.identity);
         BulletIns.GetComponent<Rigidbody2D>().velocity = transform.right * Force;
     }
 }

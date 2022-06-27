@@ -25,13 +25,13 @@ public class TurretAI : MonoBehaviour
         RaycastHit2D rayInfo = Physics2D.Raycast(transform.position,Direction,Range);
         if (rayInfo)
         {
-           // if(rayInfo.collider.gameObject.tag == "Player") Funktioniert nur ausgeklammert?
+            //if(rayInfo.collider.gameObject.tag == "Player") //Funktioniert nur ausgeklammert?
             //{                
                 if (Detected == false)
                 {
                     Detected = true;
                 }
-          //  }
+            //}
             else
             {
                 if (Detected == true)
@@ -60,3 +60,5 @@ public class TurretAI : MonoBehaviour
         Gizmos.DrawWireSphere(transform.position, Range);
     }
 }
+
+// Die range funktioniert nicht. Level erst mal so bauen, dass es spielbar ist. 
