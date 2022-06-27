@@ -6,7 +6,7 @@ using UnityEngine.SceneManagement;
 public class LevelLoader : MonoBehaviour
 {
 
-    public void LoadLevel(int level) //Loads a the next level with the index passed
+    public static void LoadNextLevel() //Loads a the next level with the index passed
     {
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex +1);
     }

@@ -11,6 +11,8 @@ TagManager:
   - FighterHit
   - MummyHit
   - PlayerBullet
+  - Vent
+  - Tool
   layers:
   - Default
   - TransparentFX
