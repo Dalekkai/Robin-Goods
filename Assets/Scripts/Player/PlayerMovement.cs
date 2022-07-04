@@ -35,6 +35,7 @@ public class PlayerMovement : MonoBehaviour
         {
             crouch = false;
         }
+
     }
 
     //checks if player is jumping
