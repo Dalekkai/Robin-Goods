@@ -422,6 +422,10 @@ PrefabInstance:
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8811213769264633897, guid: df94c73a39f2412488f883632cb4fa63, type: 3}
+      propertyPath: animator
+      value: 
+      objectReference: {fileID: 166835471}
+    - target: {fileID: 8811213769264633897, guid: df94c73a39f2412488f883632cb4fa63, type: 3}
       propertyPath: m_CrouchSpeed
       value: 0.657
       objectReference: {fileID: 0}
@@ -479,6 +483,11 @@ PrefabInstance:
       objectReference: {fileID: 1700680076}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: df94c73a39f2412488f883632cb4fa63, type: 3}
+--- !u!95 &166835471 stripped
+Animator:
+  m_CorrespondingSourceObject: {fileID: 8811213769264633896, guid: df94c73a39f2412488f883632cb4fa63, type: 3}
+  m_PrefabInstance: {fileID: 166835470}
+  m_PrefabAsset: {fileID: 0}
 --- !u!4 &197786013 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 8811213769264633900, guid: df94c73a39f2412488f883632cb4fa63, type: 3}

@@ -51,12 +51,14 @@ public class Dialogue : MonoBehaviour
             textDisplay.text = "";
             StartCoroutine(Type());
         } else
+
         {
             textDisplay.text = "";
             continueButton.SetActive(false);
             dialogueBox.SetActive(false);
             player.GetComponent<PlayerMovement>().enabled = true;
-            player.GetComponent<PlayerAttack>().enabled = true;
+            player.GetComponent<PlayerAttack>().enabled = true; 
+            player.GetComponent<PlayerController>().enabled = true;
         }
     }
 
