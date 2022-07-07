@@ -42,8 +42,7 @@ public class IntroNef : MonoBehaviour
 
     IEnumerator SecondCoroutine()
     {
-        yield return new WaitForSeconds(10);
-        Debug.Log("Waited 10 Sec");
+        yield return new WaitForSeconds(5);
         StartCoroutine(Type());
     }
     public void NextSentence()

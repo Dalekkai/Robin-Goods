@@ -11,8 +11,8 @@ public class Dialogue : MonoBehaviour
     public float typingSpeed;
     public GameObject continueButton;
     public GameObject dialogueBox;
-    public GameObject dialogueBoxTwo;
     public GameObject player;
+    public GameObject trigger;
     
 
     private void Start()
@@ -57,7 +57,7 @@ public class Dialogue : MonoBehaviour
             textDisplay.text = "";
             continueButton.SetActive(false);
             dialogueBox.SetActive(false);
-            dialogueBoxTwo.SetActive(true);
+            trigger.SetActive(true);
             player.GetComponent<PlayerMovement>().enabled = true;
             player.GetComponent<PlayerAttack>().enabled = true; 
             player.GetComponent<PlayerController>().enabled = true;
