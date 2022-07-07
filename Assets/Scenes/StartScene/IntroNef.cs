@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using TMPro;
 
-public class Dialogue : MonoBehaviour
+public class IntroNef : MonoBehaviour
 {
     public TextMeshProUGUI textDisplay;
     public string[] sentences;
@@ -11,16 +11,13 @@ public class Dialogue : MonoBehaviour
     public float typingSpeed;
     public GameObject continueButton;
     public GameObject dialogueBox;
-    public GameObject dialogueBoxTwo;
     public GameObject player;
-    
 
-    private void Start()
+    public void Start ()
     {
-        StartCoroutine(Type());
-        
+            StartCoroutine(SecondCoroutine());
+   
     }
-
     private void Update()
     {
         player.GetComponent<PlayerMovement>().enabled = false;
@@ -43,24 +40,28 @@ public class Dialogue : MonoBehaviour
         }
     }
 
+    IEnumerator SecondCoroutine()
+    {
+        yield return new WaitForSeconds(10);
+        Debug.Log("Waited 10 Sec");
+        StartCoroutine(Type());
+    }
     public void NextSentence()
     {
         continueButton.SetActive(false);
 
-        if(index < sentences.Length -1)
+        if (index < sentences.Length - 1)
         {
             index++;
             textDisplay.text = "";
             StartCoroutine(Type());
 
-        } else {
+        }
+        else
+        {
             textDisplay.text = "";
             continueButton.SetActive(false);
             dialogueBox.SetActive(false);
-            dialogueBoxTwo.SetActive(true);
-            player.GetComponent<PlayerMovement>().enabled = true;
-            player.GetComponent<PlayerAttack>().enabled = true; 
-            player.GetComponent<PlayerController>().enabled = true;
         }
     }
 
