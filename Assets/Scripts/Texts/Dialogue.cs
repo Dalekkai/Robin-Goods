@@ -23,6 +23,7 @@ public class Dialogue : MonoBehaviour
     private void Update()
     {
         player.GetComponent<PlayerMovement>().enabled = false;
+        player.GetComponent<PlayerAttack>().enabled = false;
         if (textDisplay.text == sentences[index])
         {
             continueButton.SetActive(true);
@@ -55,6 +56,7 @@ public class Dialogue : MonoBehaviour
             continueButton.SetActive(false);
             dialogueBox.SetActive(false);
             player.GetComponent<PlayerMovement>().enabled = true;
+            player.GetComponent<PlayerAttack>().enabled = true;
         }
     }
 
