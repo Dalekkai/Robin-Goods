@@ -313,8 +313,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 945020771}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 14.373213, y: 4.882813, z: 0.15915658}
-  m_LocalScale: {x: 110.20044, y: 28.22762, z: 1}
+  m_LocalPosition: {x: 5.1307, y: 4.882813, z: 0.15915658}
+  m_LocalScale: {x: 52.08057, y: 28.22762, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1786388666}
@@ -1829,7 +1829,7 @@ MonoBehaviour:
   sentences:
   - You have awakened the spirit of Nefertiti!
   - Her bust was once stolen from her and taken to a museum.
-  - Help her by getting it back and deliver it safely to her home.
+  - Help her by taking it back and deliver it safely to her home.
   typingSpeed: 0.03
   continueButton: {fileID: 1517592025}
   dialogueBox: {fileID: 1667598232}
