@@ -5,6 +5,7 @@ using UnityEngine;
 public class LevelProgressionLogic : MonoBehaviour
 {
     bool gotTool = false;
+    public CanvasGroup can;
 
     private void OnTriggerEnter2D(Collider2D other) {
         switch(other.tag)
@@ -14,7 +15,11 @@ public class LevelProgressionLogic : MonoBehaviour
             break;
 
             case "Vent":
-            if(gotTool){LevelLoader.LoadNextLevel();}
+            if(gotTool)
+            {
+                LevelLoader.LoadNextLevel();
+                can.alpha = 0f;
+            }
             break;
 
             default:

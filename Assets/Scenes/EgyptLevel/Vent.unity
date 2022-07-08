@@ -519,7 +519,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 444242756}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -45.336834, y: -0.010000229, z: -10.006823}
+  m_LocalPosition: {x: -45.467907, y: -0.010000229, z: -10.006823}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1052,7 +1052,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7939530109888432673, guid: f3879b850b646e440b83f10774546899, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -45.336834
+      value: -45.467907
       objectReference: {fileID: 0}
     - target: {fileID: 7939530109888432673, guid: f3879b850b646e440b83f10774546899, type: 3}
       propertyPath: m_LocalPosition.y
@@ -1333,6 +1333,7 @@ MonoBehaviour:
   continueButton: {fileID: 1250402316}
   dialogueBox: {fileID: 1354796338}
   player: {fileID: 72238642}
+  trigger: {fileID: 5709341595056217488, guid: 6c2d23405405d4c41ba183ad16c5862f, type: 3}
 --- !u!1 &1491240322
 GameObject:
   m_ObjectHideFlags: 0
