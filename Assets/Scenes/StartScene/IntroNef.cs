@@ -61,9 +61,11 @@ public class IntroNef : MonoBehaviour
             textDisplay.text = "";
             continueButton.SetActive(false);
             dialogueBox.SetActive(false);
+            LevelLoader.LoadNextLevel();
             
-            //Ich denke an diese Stelle muss der code zum laden des nächsten levels (also das erste museum level) hin
-            //evtl. ja der code aus Zeile 67, bin ich aber nicht sicher, bitte prüfen
+            //Ich denke an diese Stelle muss der code zum laden des nï¿½chsten levels 
+            //(also das erste museum level) hin
+            //evtl. ja der code aus Zeile 67, bin ich aber nicht sicher, bitte prï¿½fen
             //LevelLoader.LoadNextLevel();
         }
     }

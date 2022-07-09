@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class GetItem : MonoBehaviour
 {
-    public GameObject ToolUi; 
+
     public CanvasGroup can;
     private void OnTriggerEnter2D(Collider2D other) 
     {
