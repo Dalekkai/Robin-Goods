@@ -1295,8 +1295,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   textDisplay: {fileID: 1234187434}
   sentences:
-  - What's that glowing object?
-  - Maybe something will happen if I touch it.
+  - What's that glowing light?
+  - Maybe something will happen if you touch it.
   typingSpeed: 0.03
   continueButton: {fileID: 1767164189}
   dialogueBox: {fileID: 1345396090}
@@ -1789,7 +1789,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8811213769264633910, guid: df94c73a39f2412488f883632cb4fa63, type: 3}
       propertyPath: m_GravityScale
-      value: 0.05
+      value: 0.03
       objectReference: {fileID: 0}
     - target: {fileID: 8811213769281133890, guid: df94c73a39f2412488f883632cb4fa63, type: 3}
       propertyPath: m_LocalPosition.y
@@ -1890,7 +1890,7 @@ MonoBehaviour:
   sentences:
   - You have awakened the spirit of Nefertiti!
   - Her bust was once stolen from her and taken to a museum.
-  - Help her by taking it back and deliver it safely to her home.
+  - Help her to regain it and deliver it safely to her home.
   typingSpeed: 0.03
   continueButton: {fileID: 1517592025}
   dialogueBox: {fileID: 1667598232}

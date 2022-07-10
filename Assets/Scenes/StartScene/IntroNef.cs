@@ -42,7 +42,7 @@ public class IntroNef : MonoBehaviour
 
     IEnumerator SecondCoroutine()
     {
-        yield return new WaitForSeconds(5);
+        yield return new WaitForSeconds(6.5f);
         StartCoroutine(Type());
     }
     public void NextSentence()
@@ -62,11 +62,6 @@ public class IntroNef : MonoBehaviour
             continueButton.SetActive(false);
             dialogueBox.SetActive(false);
             LevelLoader.LoadNextLevel();
-            
-            //Ich denke an diese Stelle muss der code zum laden des n�chsten levels 
-            //(also das erste museum level) hin
-            //evtl. ja der code aus Zeile 67, bin ich aber nicht sicher, bitte pr�fen
-            //LevelLoader.LoadNextLevel();
         }
     }
 
