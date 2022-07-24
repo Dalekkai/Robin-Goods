@@ -815,6 +815,10 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.y
       value: -6.435791
       objectReference: {fileID: 0}
+    - target: {fileID: 7620187852856590740, guid: c5e5870f0b0f777428bc32d81c0c655e, type: 3}
+      propertyPath: m_UiScaleMode
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 7620187852856590742, guid: c5e5870f0b0f777428bc32d81c0c655e, type: 3}
       propertyPath: m_Name
       value: Canvas
@@ -1311,7 +1315,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 444242756}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -28.797337, y: 3.5799997, z: -10.006823}
+  m_LocalPosition: {x: -28.788172, y: 3.5799997, z: -10.006823}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -7580,7 +7584,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7939530109888432673, guid: f3879b850b646e440b83f10774546899, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -28.797337
+      value: -28.788172
       objectReference: {fileID: 0}
     - target: {fileID: 7939530109888432673, guid: f3879b850b646e440b83f10774546899, type: 3}
       propertyPath: m_LocalPosition.y

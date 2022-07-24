@@ -16,7 +16,6 @@ public class IntroNef : MonoBehaviour
     public void Start ()
     {
             StartCoroutine(SecondCoroutine());
-   
     }
     private void Update()
     {
