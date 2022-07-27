@@ -16,6 +16,7 @@ TagManager:
   - Death
   - Grounded
   - ArtefactTrigger
+  - Shoot
   layers:
   - Default
   - TransparentFX
