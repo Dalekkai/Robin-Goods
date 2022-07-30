@@ -4,13 +4,12 @@ using UnityEngine;
 
 public class TriggerText : MonoBehaviour
 {
-    public float textDisplay;
+    public float textShown;
     public GameObject uiObject;
     public GameObject player;
     public GameObject playerHold;
     public GameObject music;
     public GameObject sound;
-    
 
     void Start()
     {
@@ -34,7 +33,7 @@ public class TriggerText : MonoBehaviour
 
     IEnumerator Text()
     {
-        yield return new WaitForSeconds(textDisplay);
+        yield return new WaitForSeconds(textShown);
         Destroy(uiObject);
         Destroy(gameObject);
         playerHold.SetActive(false);

@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using TMPro;
 
-public class Dialogue : MonoBehaviour
+public class DialogueTrigger : MonoBehaviour
 {
     public TextMeshProUGUI textDisplay;
     public string[] sentences;
@@ -12,19 +12,18 @@ public class Dialogue : MonoBehaviour
     public GameObject continueButton;
     public GameObject dialogueBox;
     public GameObject player;
-    public GameObject trigger;
-    
+    public GameObject triggerText;
+    public GameObject holdPlayer;
 
-    public void Start()
+    private void Start()
     {
         StartCoroutine(TextRoutine());
-        
     }
-
     private void Update()
     {
         player.GetComponent<PlayerMovement>().enabled = false;
         player.GetComponent<PlayerAttack>().enabled = false;
+        player.GetComponent<PlayerController>().enabled = false;
 
         if (textDisplay.text == sentences[index])
         {
@@ -32,9 +31,9 @@ public class Dialogue : MonoBehaviour
         }
     }
 
-    IEnumerator TextRoutine()
+    public IEnumerator TextRoutine()
     {
-        yield return new WaitForSeconds(1.1f);
+        yield return new WaitForSeconds(1);
 
         foreach (char letter in sentences[index].ToCharArray())
         {
@@ -57,10 +56,11 @@ public class Dialogue : MonoBehaviour
             textDisplay.text = "";
             continueButton.SetActive(false);
             dialogueBox.SetActive(false);
-            trigger.SetActive(true);
             player.GetComponent<PlayerMovement>().enabled = true;
-            player.GetComponent<PlayerAttack>().enabled = true; 
             player.GetComponent<PlayerController>().enabled = true;
+            player.GetComponent<PlayerAttack>().enabled = true;
+            triggerText.SetActive(false);
+            holdPlayer.SetActive(false);
         }
     }
 
