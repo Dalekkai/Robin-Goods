@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using TMPro;
 
-public class DialogueTrigger : MonoBehaviour
+public class TriggerTextMultiple : MonoBehaviour
 {
     public TextMeshProUGUI textDisplay;
     public string[] sentences;
@@ -14,6 +14,7 @@ public class DialogueTrigger : MonoBehaviour
     public GameObject player;
     public GameObject triggerText;
     public GameObject holdPlayer;
+    public GameObject questionMark;
 
     private void Start()
     {
@@ -61,6 +62,7 @@ public class DialogueTrigger : MonoBehaviour
             player.GetComponent<PlayerAttack>().enabled = true;
             triggerText.SetActive(false);
             holdPlayer.SetActive(false);
+            questionMark.SetActive(false);
         }
     }
 

@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class TriggerText : MonoBehaviour
+public class TriggerTextOnce : MonoBehaviour
 {
     public float textShown;
     public GameObject uiObject;
