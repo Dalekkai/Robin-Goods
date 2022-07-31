@@ -6,7 +6,7 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/StartScenes/Menu.unity
+    path: Assets/Scenes/Menu/Menu.unity
     guid: 3a33a0a849ea2f84a92220d74c1d9580
   - enabled: 1
     path: Assets/Scenes/EgyptLevel/EgyptStart.unity
