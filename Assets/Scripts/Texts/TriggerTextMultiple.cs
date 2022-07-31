@@ -25,6 +25,7 @@ public class TriggerTextMultiple : MonoBehaviour
         player.GetComponent<PlayerMovement>().enabled = false;
         player.GetComponent<PlayerAttack>().enabled = false;
         player.GetComponent<PlayerController>().enabled = false;
+        player.GetComponent<Animator>().enabled = false;
 
         if (textDisplay.text == sentences[index])
         {
@@ -60,6 +61,7 @@ public class TriggerTextMultiple : MonoBehaviour
             player.GetComponent<PlayerMovement>().enabled = true;
             player.GetComponent<PlayerController>().enabled = true;
             player.GetComponent<PlayerAttack>().enabled = true;
+            player.GetComponent<Animator>().enabled = true;
             triggerText.SetActive(false);
             holdPlayer.SetActive(false);
             questionMark.SetActive(false);

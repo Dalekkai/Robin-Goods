@@ -6,7 +6,7 @@ public class TriggerForText : MonoBehaviour
 {
     public GameObject player;
     public GameObject dialogueBox;
-   
+
 
     private void OnTriggerEnter2D(Collider2D other)
     {
