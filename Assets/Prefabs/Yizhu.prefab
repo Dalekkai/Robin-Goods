@@ -494,10 +494,10 @@ GameObject:
   - component: {fileID: 8811213769264633910}
   - component: {fileID: 8811213769264633911}
   - component: {fileID: 8811213769264633909}
-  - component: {fileID: 8811213769264633896}
   - component: {fileID: 8811213769264633897}
   - component: {fileID: 8811213769264633898}
   - component: {fileID: 8811213769264633899}
+  - component: {fileID: 7349429969448270979}
   m_Layer: 0
   m_Name: Yizhu
   m_TagString: Player
@@ -596,26 +596,6 @@ CircleCollider2D:
   m_Offset: {x: -0.0115177035, y: -1.3439411}
   serializedVersion: 2
   m_Radius: 1.950885
---- !u!95 &8811213769264633896
-Animator:
-  serializedVersion: 4
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8811213769264633901}
-  m_Enabled: 1
-  m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: b6f0ccc0c4233f94297135df9480a719, type: 2}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 0
-  m_LinearVelocityBlending: 0
-  m_StabilizeFeet: 0
-  m_WarningMessage: 
-  m_HasTransformHierarchy: 1
-  m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!114 &8811213769264633897
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -640,7 +620,7 @@ MonoBehaviour:
   m_CrouchDisableCollider: {fileID: 8811213769264633911}
   Collider: {fileID: 8811213770074541496}
   touchGround: 0
-  animator: {fileID: 8811213769264633896}
+  animator: {fileID: 0}
   m_Grounded: 0
   OnLandEvent:
     m_PersistentCalls:
@@ -685,7 +665,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   controller: {fileID: 8811213769264633897}
-  animator: {fileID: 8811213769264633896}
+  animator: {fileID: 0}
   runSpeed: 22
 --- !u!114 &8811213769264633899
 MonoBehaviour:
@@ -703,6 +683,26 @@ MonoBehaviour:
   playerBullet: {fileID: 992400587785795940, guid: 3d18c0b0c5e6d3342b13959f99aa3f5c, type: 3}
   Force: 30
   canShoot: 0
+--- !u!95 &7349429969448270979
+Animator:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8811213769264633901}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 7aba5d54446bf9e45ae0452117348d38, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &8811213769281133891
 GameObject:
   m_ObjectHideFlags: 0
@@ -728,7 +728,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8811213769281133891}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.12, y: 0.60000014, z: 0}
+  m_LocalPosition: {x: -0.12, y: 0.6000001, z: 0}
   m_LocalScale: {x: -1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []

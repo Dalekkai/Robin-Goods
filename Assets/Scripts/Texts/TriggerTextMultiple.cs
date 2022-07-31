@@ -14,7 +14,7 @@ public class TriggerTextMultiple : MonoBehaviour
     public GameObject player;
     public GameObject triggerText;
     public GameObject holdPlayer;
-    public GameObject questionMark;
+    public GameObject triggerObject;
 
     private void Start()
     {
@@ -64,7 +64,7 @@ public class TriggerTextMultiple : MonoBehaviour
             player.GetComponent<Animator>().enabled = true;
             triggerText.SetActive(false);
             holdPlayer.SetActive(false);
-            questionMark.SetActive(false);
+            triggerObject.SetActive(false);
         }
     }
 

@@ -54,7 +54,7 @@ public class DialogueTransitions : MonoBehaviour
             textDisplay.text = "";
             continueButton.SetActive(false);
             dialogueBox.SetActive(false);
-
+            LevelLoader.LoadNextLevel();
         }
     }
 

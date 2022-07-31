@@ -1278,7 +1278,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 0}
-  m_AnchoredPosition: {x: -0.0012512207, y: 0}
+  m_AnchoredPosition: {x: -0.0012207031, y: 0}
   m_SizeDelta: {x: 409.83, y: 150}
   m_Pivot: {x: 0.5, y: 0}
 --- !u!114 &1345396092
@@ -1785,7 +1785,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8811213769264633901, guid: df94c73a39f2412488f883632cb4fa63, type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8811213769264633910, guid: df94c73a39f2412488f883632cb4fa63, type: 3}
       propertyPath: m_GravityScale
@@ -1871,7 +1871,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 0}
-  m_AnchoredPosition: {x: -0.0012512207, y: 0}
+  m_AnchoredPosition: {x: -0.0012207031, y: 0}
   m_SizeDelta: {x: 409.83, y: 150}
   m_Pivot: {x: 0.5, y: 0}
 --- !u!114 &1667598234
@@ -1888,9 +1888,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   textDisplay: {fileID: 1337339055}
   sentences:
-  - You have awakened the spirit of Yizhu!
-  - His family seal was once stolen from him and taken to a museum.
-  - Help him to regain it and deliver it safely to his home.
+  - You have awakened the spirit of Nefertiti!
+  - Her bust was once stolen from her and taken to a museum.
+  - Help her to regain it and deliver it safely to her home.
   typingSpeed: 0.03
   continueButton: {fileID: 1517592025}
   dialogueBox: {fileID: 1667598232}
@@ -2324,7 +2324,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!212 &2099968001
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -2367,7 +2367,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 2
   m_Sprite: {fileID: -2413806693520163455, guid: a86470a33a6bf42c4b3595704624658b, type: 3}
-  m_Color: {r: 1, g: 0, b: 0, a: 1}
+  m_Color: {r: 0.5750022, g: 0, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
