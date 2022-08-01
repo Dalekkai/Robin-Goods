@@ -15,9 +15,9 @@ public class Dialogue : MonoBehaviour
     public GameObject trigger;
     
 
-    public void Start()
+    private void Start()
     {
-        StartCoroutine(TextRoutine());
+        StartCoroutine(Type());
         
     }
 
@@ -32,7 +32,7 @@ public class Dialogue : MonoBehaviour
         }
     }
 
-    IEnumerator TextRoutine()
+    IEnumerator Type()
     {
         yield return new WaitForSeconds(1.1f);
 
@@ -51,7 +51,7 @@ public class Dialogue : MonoBehaviour
         {
             index++;
             textDisplay.text = "";
-            StartCoroutine(TextRoutine());
+            StartCoroutine(Type());
 
         } else {
             textDisplay.text = "";

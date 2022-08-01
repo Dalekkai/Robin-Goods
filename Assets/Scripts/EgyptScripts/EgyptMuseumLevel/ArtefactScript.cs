@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class ArtefactScript : MonoBehaviour
 {
-    
+    // Start is called before the first frame update
     private void OnTriggerEnter2D(Collider2D other) 
     {
         //TODO transition and dialouge 

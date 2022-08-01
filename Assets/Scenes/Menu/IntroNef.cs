@@ -16,6 +16,7 @@ public class IntroNef : MonoBehaviour
     public void Start ()
     {
             StartCoroutine(SecondCoroutine());
+   
     }
     private void Update()
     {
@@ -28,7 +29,7 @@ public class IntroNef : MonoBehaviour
         }
     }
 
-    IEnumerator TextRoutine()
+    IEnumerator Type()
     {
         yield return new WaitForSeconds(1.1f);
 
@@ -42,7 +43,7 @@ public class IntroNef : MonoBehaviour
     IEnumerator SecondCoroutine()
     {
         yield return new WaitForSeconds(6.5f);
-        StartCoroutine(TextRoutine());
+        StartCoroutine(Type());
     }
     public void NextSentence()
     {
@@ -52,7 +53,7 @@ public class IntroNef : MonoBehaviour
         {
             index++;
             textDisplay.text = "";
-            StartCoroutine(TextRoutine());
+            StartCoroutine(Type());
 
         }
         else
