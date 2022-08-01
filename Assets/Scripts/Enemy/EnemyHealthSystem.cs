@@ -6,6 +6,8 @@ public class EnemyHealthSystem : MonoBehaviour
 {
     public int maxHealth = 5;
     public int currentHealth;
+    public HealthBar healthBar;
+    public bool isDead = false;
 
     
     void Start()
@@ -18,6 +20,7 @@ public class EnemyHealthSystem : MonoBehaviour
     {
         if(currentHealth == 0){
             Destroy(gameObject);
+            isDead = true;
         }
     }
 
@@ -34,5 +37,10 @@ public class EnemyHealthSystem : MonoBehaviour
     void TakeDamage(int damage)
     {
         currentHealth -= damage;
+        if(healthBar != null )
+        {
+            healthBar.SetHealth(currentHealth);
+        }
     }
+
 }

@@ -33,6 +33,12 @@ EditorBuildSettings:
     path: Assets/Scenes/EgyptLevel/Egypt.unity
     guid: 57e846a53650d9d438ceb7f3f39b7464
   - enabled: 1
+    path: Assets/Scenes/EgyptLevel/BossArena.unity
+    guid: 7ffa7ac4422182c4eb7dca65d5dcafd6
+  - enabled: 1
+    path: Assets/Scenes/EgyptLevel/BustLvl.unity
+    guid: c9415a96710efa642928682f6ae46628
+  - enabled: 1
     path: Assets/Scenes/Transitions/TransitionEgypt3.unity
     guid: a8684074f06c5f7428ec52773146a4a4
   m_configObjects: {}

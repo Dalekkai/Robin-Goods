@@ -19,7 +19,6 @@ public class PlayerHealthSystem : MonoBehaviour
     void Update()
     {
          if(currentHealth <= 0){
-            Debug.Log("Tod");
             LevelLoader.Respawn();
         }
     }
@@ -50,7 +49,6 @@ public class PlayerHealthSystem : MonoBehaviour
     void TakeDamage(int damage)
     {
         currentHealth -= damage;
-        healthBar.SetHealth(currentHealth);
-       
+        healthBar.SetHealth(currentHealth);       
     }
 }

@@ -7,6 +7,7 @@ public class Boss : MonoBehaviour
     public GameObject bookBullet;
     public Transform firePoint;
     public float force;
+    public float shotTime;
 
     public Transform player;
     public bool isFlipped = false;
@@ -14,10 +15,10 @@ public class Boss : MonoBehaviour
 
 
 
-    // TODO: Movement, Timing the shots, Healthbar, a check if dead.
+    // TODO: Healthbar scale, a check if dead.
     void Start()
     {
-
+        
     }
 
     // Update is called once per frame
@@ -26,11 +27,12 @@ public class Boss : MonoBehaviour
 
     }
     
-    void Shoot() //Shoots books at the faced direction 
+    public void Shoot() //Shoots books at the faced direction 
     {
         GameObject BulletIns = Instantiate
         (bookBullet, firePoint.position, Quaternion.identity);
-        BulletIns.GetComponent<Rigidbody2D>().velocity = transform.right *force;
+        BulletIns.GetComponent<Rigidbody2D>().velocity = -transform.right *force;
+        Invoke("Shoot", shotTime);
     }
 
     public void LookAtPlayer() //Changes the scale to look at player. Used in the Animatior Script.
