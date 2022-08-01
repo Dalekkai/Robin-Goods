@@ -8,12 +8,16 @@ public class Boss : MonoBehaviour
     public Transform firePoint;
     public float force;
 
+    public Transform player;
+    public bool isFlipped = false;
+
+
 
 
     // TODO: Movement, Timing the shots, Healthbar, a check if dead.
     void Start()
     {
-        
+
     }
 
     // Update is called once per frame
@@ -27,5 +31,24 @@ public class Boss : MonoBehaviour
         GameObject BulletIns = Instantiate
         (bookBullet, firePoint.position, Quaternion.identity);
         BulletIns.GetComponent<Rigidbody2D>().velocity = transform.right *force;
+    }
+
+    public void LookAtPlayer() //Changes the scale to look at player. Used in the Animatior Script.
+    {
+        Vector3 flipped = transform.localScale;
+        flipped.z *= -1f;
+
+        if(transform.position.x > player.position.x && isFlipped)
+        {
+            transform.localScale = flipped;
+            transform.Rotate(0f, 180f, 0f);
+            isFlipped = false;
+        }
+        else if(transform.position.x < player.position.x && !isFlipped)
+        {
+            transform.localScale = flipped;
+            transform.Rotate(0f, 180f, 0f);
+            isFlipped = true;
+        }
     }
 }
