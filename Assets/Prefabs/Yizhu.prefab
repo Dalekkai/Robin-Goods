@@ -498,6 +498,7 @@ GameObject:
   - component: {fileID: 8811213769264633897}
   - component: {fileID: 8811213769264633898}
   - component: {fileID: 8811213769264633899}
+  - component: {fileID: 7754282071313772724}
   m_Layer: 0
   m_Name: Yizhu
   m_TagString: Player
@@ -702,7 +703,21 @@ MonoBehaviour:
   firePoint: {fileID: 8811213769349285992}
   playerBullet: {fileID: 992400587785795940, guid: 3d18c0b0c5e6d3342b13959f99aa3f5c, type: 3}
   Force: 30
-  canShoot: 0
+--- !u!114 &7754282071313772724
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8811213769264633901}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 92cff233581d2b74495f27541a6e52bc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  maxHealth: 10
+  currentHealth: 0
+  healthBar: {fileID: 0}
 --- !u!1 &8811213769281133891
 GameObject:
   m_ObjectHideFlags: 0
