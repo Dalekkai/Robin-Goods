@@ -50,4 +50,10 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/ChinaLevel/China.unity
     guid: b20c50c43867be145a35d6da4b85008e
+  - enabled: 1
+    path: Assets/Scenes/ChinaLevel/Arena.unity
+    guid: ee3c6ffca0730574cb853e04814aaf9b
+  - enabled: 1
+    path: Assets/Scenes/ChinaLevel/ArtefactLevel.unity
+    guid: 266748f8cca70254199e94237d309d21
   m_configObjects: {}
