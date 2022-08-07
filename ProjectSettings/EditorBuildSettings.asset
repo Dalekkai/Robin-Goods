@@ -12,8 +12,8 @@ EditorBuildSettings:
     path: Assets/Scenes/EgyptLevel/EgyptStart.unity
     guid: 62945ea730649664f895712e34b3f55e
   - enabled: 1
-    path: Assets/Scenes/Transitions/TransitionEgypt1.unity
-    guid: cda836817ee965340ba5bf8bf7951668
+    path: Assets/Scenes/Transitions/Egypt/TransitionEgypt1.unity
+    guid: 3fd8a2e7efca51a439d0875213479fe8
   - enabled: 1
     path: Assets/Scenes/EgyptLevel/MuseumEntrance 1.unity
     guid: 243ea7ffe8f604a42854bc537ecf7980
@@ -27,7 +27,7 @@ EditorBuildSettings:
     path: Assets/Scenes/EgyptLevel/EgyptMuseum.unity
     guid: 8cff0a27d7bc4f7489514b4b67a72f3e
   - enabled: 1
-    path: Assets/Scenes/Transitions/TransitionEgypt2.unity
+    path: Assets/Scenes/Transitions/Egypt/TransitionEgypt2.unity
     guid: 1ad754347dd5185448a844bd25172c8f
   - enabled: 1
     path: Assets/Scenes/EgyptLevel/Egypt.unity
@@ -39,17 +39,23 @@ EditorBuildSettings:
     path: Assets/Scenes/EgyptLevel/BustLvl.unity
     guid: c9415a96710efa642928682f6ae46628
   - enabled: 1
-    path: Assets/Scenes/Transitions/TransitionEgypt3.unity
+    path: Assets/Scenes/Transitions/Egypt/TransitionEgypt3.unity
     guid: a8684074f06c5f7428ec52773146a4a4
   - enabled: 1
     path: Assets/Scenes/ChinaLevel/ChinaStart.unity
     guid: 7d9443a9977b7bd458167c341fd465a1
+  - enabled: 1
+    path: Assets/Scenes/Transitions/China/TransitionChina1.unity
+    guid: cda836817ee965340ba5bf8bf7951668
   - enabled: 1
     path: Assets/Scenes/ChinaLevel/ChinaEntrance.unity
     guid: 61904cf1502fc0846b386f9d15382e5f
   - enabled: 1
     path: Assets/Scenes/ChinaLevel/ChinaMuesum.unity
     guid: 0a342fd9c62726849b555321b364573c
+  - enabled: 1
+    path: Assets/Scenes/Transitions/China/TransitionChina2.unity
+    guid: ece21c94737768545bd7fa42437c91e8
   - enabled: 1
     path: Assets/Scenes/ChinaLevel/China.unity
     guid: b20c50c43867be145a35d6da4b85008e
@@ -59,4 +65,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/ChinaLevel/ArtefactLevel.unity
     guid: 266748f8cca70254199e94237d309d21
+  - enabled: 1
+    path: Assets/Scenes/Transitions/China/TransitionChina3.unity
+    guid: fbde9c8f3e8ec60418267996411d8bf1
   m_configObjects: {}

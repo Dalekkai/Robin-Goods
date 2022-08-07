@@ -1836,7 +1836,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   textDisplay: {fileID: 1337339055}
   sentences:
-  - You have awakened the spirit of Yizhu!
+  - You have awakened the spirit of Emperor Yizhu!
   - His family seal was once stolen from him and taken to a museum.
   - Help him to regain it and deliver it safely to his home.
   typingSpeed: 0.03
