@@ -893,7 +893,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   textDisplay: {fileID: 340965701}
   sentences:
-  - "Nefertiti, meaning \u201Cthe beautiful one has come forward\u201D was an ancient
+  - "Nefertiti, meaning \u201Cthe beautiful one has come forward\u201D, was an ancient
     egyptian queen in the 18th Dynasty."
   - Some speculate she was co-regent alongside her husband Akhenaten.
   - The depiction of her bust shows a beautiful and mature woman.

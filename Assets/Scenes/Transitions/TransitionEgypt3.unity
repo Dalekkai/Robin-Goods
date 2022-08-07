@@ -895,7 +895,7 @@ MonoBehaviour:
   sentences:
   - The Bust has been sitting on display in Berlin's "Neues Museum" since 1913.
   - It has since become a part of the local culture in Berlin.
-  - 'The egyptian government requested her return in 1925. '
+  - 'The Egyptian government requested her return in 1925. '
   - 'Now, almost 100 years later, the "Neues Museum" has not returned the bust.  '
   typingSpeed: 0.03
   continueButton: {fileID: 520247354}

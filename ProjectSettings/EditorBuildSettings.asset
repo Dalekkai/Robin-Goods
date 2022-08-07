@@ -42,6 +42,9 @@ EditorBuildSettings:
     path: Assets/Scenes/Transitions/TransitionEgypt3.unity
     guid: a8684074f06c5f7428ec52773146a4a4
   - enabled: 1
+    path: Assets/Scenes/ChinaLevel/ChinaStart.unity
+    guid: 7d9443a9977b7bd458167c341fd465a1
+  - enabled: 1
     path: Assets/Scenes/ChinaLevel/ChinaEntrance.unity
     guid: 61904cf1502fc0846b386f9d15382e5f
   - enabled: 1
