@@ -20,6 +20,14 @@ public class PlayerBulletBehaviour : MonoBehaviour
             Destroy(gameObject, 0.1f); 
             break;
 
+            case "FighterHit":
+            Destroy(gameObject, 0.2f); 
+            break;
+
+            case "MummyHit":
+            Destroy(gameObject, 0.2f); 
+            break;
+
             default:
             Destroy(gameObject); 
             break;            
