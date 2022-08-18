@@ -32,6 +32,22 @@ public class EnemyHealthSystem : MonoBehaviour
         {
             TakeDamage(1);
         }
+        switch(other.gameObject.tag)
+        {
+            case "PlayerBullet":
+            TakeDamage(1);
+            break;
+
+            case "Sword":
+            TakeDamage(3);
+            break;
+
+            default: 
+            break;
+
+        }
+        
+        
     }
 
     void TakeDamage(int damage)

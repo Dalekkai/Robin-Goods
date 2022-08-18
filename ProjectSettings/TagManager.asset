@@ -17,6 +17,7 @@ TagManager:
   - Grounded
   - ArtefactTrigger
   - Shoot
+  - Sword
   layers:
   - Default
   - TransparentFX
