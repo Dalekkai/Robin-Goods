@@ -18,6 +18,7 @@ TagManager:
   - ArtefactTrigger
   - Shoot
   - Sword
+  - Speer
   layers:
   - Default
   - TransparentFX

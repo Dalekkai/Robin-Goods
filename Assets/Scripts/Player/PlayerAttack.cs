@@ -15,6 +15,8 @@ public class PlayerAttack : MonoBehaviour
 
     public Transform sword;
 
+    public GameObject speer;
+
     private void Update()
     {
         if(Input.GetButtonDown("Fire1"))
@@ -44,9 +46,14 @@ public class PlayerAttack : MonoBehaviour
         }
     }
 
-    private void SpeerAttack() // TODO 
+    void SpeerAttack() // TODO 
     {
-        throw new NotImplementedException();
+        if(speer == null) return;
+        Debug.Log("Throw");
+        Rigidbody2D rb = speer.GetComponent<Rigidbody2D>();
+        rb.isKinematic = false;
+        rb.AddForce(transform.right * 30, ForceMode2D.Impulse);
+        //speer.hasBeenThrown = true; 
     }
 
     void Shoot()
