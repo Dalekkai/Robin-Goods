@@ -4719,6 +4719,10 @@ PrefabInstance:
       propertyPath: canShoot
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8811213769264633899, guid: df94c73a39f2412488f883632cb4fa63, type: 3}
+      propertyPath: fightType
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 8811213769264633900, guid: df94c73a39f2412488f883632cb4fa63, type: 3}
       propertyPath: m_RootOrder
       value: 3

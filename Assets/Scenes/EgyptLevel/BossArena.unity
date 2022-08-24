@@ -1099,7 +1099,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 444242756}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 43.482716, y: 1.0809999, z: -10.006823}
+  m_LocalPosition: {x: 43.48252, y: 1.0809999, z: -10.006823}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -2293,6 +2293,14 @@ PrefabInstance:
       propertyPath: m_RootOrder
       value: 2
       objectReference: {fileID: 0}
+    - target: {fileID: 5835570416421823956, guid: c5e5870f0b0f777428bc32d81c0c655e, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 91.20001
+      objectReference: {fileID: 0}
+    - target: {fileID: 5835570416421823956, guid: c5e5870f0b0f777428bc32d81c0c655e, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 13.900024
+      objectReference: {fileID: 0}
     - target: {fileID: 7620187852684486741, guid: c5e5870f0b0f777428bc32d81c0c655e, type: 3}
       propertyPath: m_AnchoredPosition.y
       value: -6.435791
@@ -2966,7 +2974,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7939530109888432673, guid: f3879b850b646e440b83f10774546899, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 43.482716
+      value: 43.48252
       objectReference: {fileID: 0}
     - target: {fileID: 7939530109888432673, guid: f3879b850b646e440b83f10774546899, type: 3}
       propertyPath: m_LocalPosition.y
@@ -3032,6 +3040,10 @@ PrefabInstance:
     - target: {fileID: 8811213769264633899, guid: df94c73a39f2412488f883632cb4fa63, type: 3}
       propertyPath: canShoot
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8811213769264633899, guid: df94c73a39f2412488f883632cb4fa63, type: 3}
+      propertyPath: fightType
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8811213769264633900, guid: df94c73a39f2412488f883632cb4fa63, type: 3}
       propertyPath: m_RootOrder

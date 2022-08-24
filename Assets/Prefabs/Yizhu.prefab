@@ -839,6 +839,9 @@ MonoBehaviour:
   firePoint: {fileID: 8811213769349285992}
   playerBullet: {fileID: 992400587785795940, guid: 3d18c0b0c5e6d3342b13959f99aa3f5c, type: 3}
   Force: 30
+  animator: {fileID: 7349429969448270979}
+  fightType: 2
+  sword: {fileID: 4892458174002574818}
 --- !u!114 &7754282071313772724
 MonoBehaviour:
   m_ObjectHideFlags: 0

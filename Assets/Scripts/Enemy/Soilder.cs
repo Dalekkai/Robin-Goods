@@ -26,10 +26,11 @@ public class Soilder : MonoBehaviour
     
     public void Shoot() //Shoots bullets at the faced direction 
                         //TODO shoots only to the left side
+                        //Cannot use ShotTime for some reason. Hard code fix :P
     {
         GameObject BulletIns = Instantiate
         (bullet, firePoint.position, Quaternion.identity);
         BulletIns.GetComponent<Rigidbody2D>().velocity = -transform.right *force;
-        Invoke("Shoot", shotTime);
+        Invoke("Shoot", 3);
     }
 }
