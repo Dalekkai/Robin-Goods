@@ -12,12 +12,27 @@ public class GlassDestroyer : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D other) 
     {
-        if(other.gameObject.tag == "PlayerBullet")
+
+        switch (other.gameObject.tag)
         {
+            case "PlayerBullet":
             Destroy(gameObject);
             glassShatters.Play();
             Crash.Play();
-        }    
+            break;
+
+            case "Sword":
+            Destroy(gameObject);
+            glassShatters.Play();
+            Crash.Play();
+            break;
+
+            case "ThrownSpeer":
+            Destroy(gameObject);
+            glassShatters.Play();
+            Crash.Play();
+            break;
+        }
     }
 
 }
