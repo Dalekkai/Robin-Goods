@@ -19,6 +19,7 @@ TagManager:
   - Shoot
   - Sword
   - Speer
+  - ThrownSpeer
   layers:
   - Default
   - TransparentFX
