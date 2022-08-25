@@ -42,6 +42,14 @@ public class EnemyHealthSystem : MonoBehaviour
             TakeDamage(3);
             break;
 
+            case "Speer":
+            TakeDamage(4);
+            break;
+
+            case "ThrownSpeer":
+            TakeDamage(10);
+            break;
+
             default: 
             break;
 
