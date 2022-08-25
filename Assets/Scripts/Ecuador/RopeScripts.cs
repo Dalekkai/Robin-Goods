@@ -14,6 +14,7 @@ public class RopeScripts : MonoBehaviour
             sleeper.gravityScale = 1;
             sleeper.constraints =  RigidbodyConstraints2D.None;
             sleeper.constraints =  RigidbodyConstraints2D.FreezePositionX;
+            sleeper.constraints =  RigidbodyConstraints2D.FreezeRotation;
 
 
         }
