@@ -20,6 +20,7 @@ TagManager:
   - Sword
   - Speer
   - ThrownSpeer
+  - Rope
   layers:
   - Default
   - TransparentFX
