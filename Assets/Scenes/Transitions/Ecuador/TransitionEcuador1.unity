@@ -1038,7 +1038,7 @@ MonoBehaviour:
     Peru and Ecuador.
   - The head of a slain enemy was shrunk and according to the legend...
   - '... the owner of the head will gain the power and knowledge of the slain victim. '
-  typingSpeed: 0.06
+  typingSpeed: 0.04
   continueButton: {fileID: 520247354}
   dialogueBox: {fileID: 1727143829}
   typingSound: {fileID: 1427767396}

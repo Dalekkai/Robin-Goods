@@ -1037,7 +1037,7 @@ MonoBehaviour:
   - The Summer Seal was looted from the Summer Place in 1860 during the Second Opium
     War by French and British troops.
   - The palace was burnt to the ground and thus destroyed.
-  typingSpeed: 0.06
+  typingSpeed: 0.04
   continueButton: {fileID: 520247354}
   dialogueBox: {fileID: 1727143829}
   typingSound: {fileID: 338934387}

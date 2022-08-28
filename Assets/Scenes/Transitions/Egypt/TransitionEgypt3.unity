@@ -1038,7 +1038,7 @@ MonoBehaviour:
   - It has since become a part of the local culture in Berlin.
   - 'The Egyptian government requested her return in 1925. '
   - 'Now, almost 100 years later, the "Neues Museum" has not returned the bust.  '
-  typingSpeed: 0.06
+  typingSpeed: 0.04
   continueButton: {fileID: 520247354}
   dialogueBox: {fileID: 1727143829}
   typingSound: {fileID: 1418812733}

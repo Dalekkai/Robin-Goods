@@ -1076,7 +1076,7 @@ MonoBehaviour:
   - In 1933 Hitler agreed to returning the bust to Egypt.
   - "However, after viewing it, he stated he would \u201Cnever relinquish the head
     of the Queen\u201D."
-  typingSpeed: 0.06
+  typingSpeed: 0.04
   continueButton: {fileID: 520247354}
   dialogueBox: {fileID: 1727143829}
   typingSound: {fileID: 697166628}

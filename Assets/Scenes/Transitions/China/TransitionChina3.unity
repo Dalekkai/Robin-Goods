@@ -1038,7 +1038,7 @@ MonoBehaviour:
     Museum failed to mention the manner of acquisition of it.
   - 'Mentioning only that it was donated (after being purchased in auction) by Henry
     Christy. '
-  typingSpeed: 0.06
+  typingSpeed: 0.04
   continueButton: {fileID: 520247354}
   dialogueBox: {fileID: 1727143829}
   typingSound: {fileID: 54607775}

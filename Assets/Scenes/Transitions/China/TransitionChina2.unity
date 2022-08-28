@@ -1040,7 +1040,7 @@ MonoBehaviour:
     Kingdom at the time of the Second Opium War. '
   - The Summer Seal that was looted during the war is made of jade and is inscribed
     with a chinese poem.
-  typingSpeed: 0.06
+  typingSpeed: 0.04
   continueButton: {fileID: 520247354}
   dialogueBox: {fileID: 1727143829}
   typingSound: {fileID: 780828740}

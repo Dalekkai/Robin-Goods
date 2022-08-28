@@ -1040,7 +1040,7 @@ MonoBehaviour:
   - 'Tests, conducted by the university in 2019, confirmed that it was indeed a genuine
     shrunken head. '
   - 'They confirmed that it was in fact a ceremonial tsantsa. '
-  typingSpeed: 0.06
+  typingSpeed: 0.04
   continueButton: {fileID: 520247354}
   dialogueBox: {fileID: 1727143829}
   typingSound: {fileID: 1520954779}

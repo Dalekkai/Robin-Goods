@@ -897,7 +897,7 @@ MonoBehaviour:
     egyptian queen in the 18th Dynasty."
   - Some speculate she was co-regent alongside her husband Akhenaten.
   - The depiction of her bust shows a beautiful and mature woman.
-  typingSpeed: 0.06
+  typingSpeed: 0.04
   continueButton: {fileID: 520247354}
   dialogueBox: {fileID: 1727143829}
   typingSound: {fileID: 2011029004}
