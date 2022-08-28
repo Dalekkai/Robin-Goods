@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class GetItem : MonoBehaviour
 {
-
+    public GameObject TriggerText;
     public CanvasGroup can;
     private void OnTriggerEnter2D(Collider2D other) 
     {
@@ -12,6 +12,7 @@ public class GetItem : MonoBehaviour
         {
             Destroy(gameObject);
             can.alpha = 1f;
+            TriggerText.SetActive(false);
         }
     }
 
