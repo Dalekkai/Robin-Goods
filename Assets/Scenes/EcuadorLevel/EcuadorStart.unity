@@ -1371,8 +1371,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   textDisplay: {fileID: 1234187434}
   sentences:
-  - What's that glowing light?
-  - Maybe something will happen if you touch it.
+  - This time it's a green light.
+  - Any idea who you will meet?
   typingSpeed: 0.03
   continueButton: {fileID: 1767164189}
   dialogueBox: {fileID: 1345396090}
@@ -1739,9 +1739,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   textDisplay: {fileID: 1337339055}
   sentences:
-  - You have awakened the spirit of Nefertiti!
-  - Her bust was once stolen from her and taken to a museum.
-  - Help her to regain it and deliver it safely to her home.
+  - You have awakened the spirit of a Shuar warrior!
+  - This time you need to get his head back.
+  - Once reclaimed you will be whole again.
   typingSpeed: 0.03
   continueButton: {fileID: 1517592025}
   dialogueBox: {fileID: 1667598232}

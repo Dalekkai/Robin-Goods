@@ -72,15 +72,24 @@ EditorBuildSettings:
     path: Assets/Scenes/EcuadorLevel/EcuadorStart.unity
     guid: 17782488318c49c4b9e361cc9083a761
   - enabled: 1
+    path: Assets/Scenes/Transitions/Ecuador/TransitionEcuador1.unity
+    guid: 25690626505f6104da255b8dc2985dc9
+  - enabled: 1
     path: Assets/Scenes/EcuadorLevel/EcuadorEntrance.unity
     guid: 03923e85a2fd7634fa6252aafe315882
   - enabled: 1
     path: Assets/Scenes/EcuadorLevel/EcuadorMuseum.unity
     guid: fd061e0c88279b844b6c2c49b89710e2
   - enabled: 1
+    path: Assets/Scenes/Transitions/Ecuador/TransitionEcuador2.unity
+    guid: 5932f37ec2a85b14ea871f7c7d972765
+  - enabled: 1
     path: Assets/Scenes/EcuadorLevel/Ecuador.unity
     guid: fd2da4d3689c98441bc799fc70948a8c
   - enabled: 1
     path: Assets/Scenes/EcuadorLevel/EcuadorArena.unity
     guid: 2c87977c4469d734793bd34f9fb98b26
+  - enabled: 1
+    path: Assets/Scenes/Transitions/Ecuador/TransitionEcuador3.unity
+    guid: f42d3c22707217f4cb2c04c38b8d6c02
   m_configObjects: {}
