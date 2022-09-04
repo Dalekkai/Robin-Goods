@@ -387,7 +387,7 @@ GameObject:
   - component: {fileID: 8811213769264633900}
   - component: {fileID: 8811213769264633910}
   - component: {fileID: 8811213769264633909}
-  - component: {fileID: 8811213769264633896}
+  - component: {fileID: 6469780515351488592}
   - component: {fileID: 8811213769264633897}
   - component: {fileID: 8811213769264633898}
   - component: {fileID: 8811213769264633899}
@@ -465,7 +465,7 @@ CircleCollider2D:
   m_Offset: {x: -0.0115177035, y: -1.6199833}
   serializedVersion: 2
   m_Radius: 1.6748428
---- !u!95 &8811213769264633896
+--- !u!95 &6469780515351488592
 Animator:
   serializedVersion: 4
   m_ObjectHideFlags: 0
@@ -475,7 +475,7 @@ Animator:
   m_GameObject: {fileID: 8811213769264633901}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: b6f0ccc0c4233f94297135df9480a719, type: 2}
+  m_Controller: {fileID: 9100000, guid: 0f318328dd6947b41bf6e7634c552738, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -506,10 +506,10 @@ MonoBehaviour:
     m_Bits: 768
   m_GroundCheck: {fileID: 8811213768390376145}
   m_CeilingCheck: {fileID: 8811213768224014002}
-  m_CrouchDisableCollider: {fileID: 0}
+  m_CrouchDisableCollider: {fileID: 8811213769264633909}
   Collider: {fileID: 8811213770074541496}
   touchGround: 0
-  animator: {fileID: 8811213769264633896}
+  animator: {fileID: 6469780515351488592}
   m_Grounded: 0
   OnLandEvent:
     m_PersistentCalls:
@@ -554,7 +554,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   controller: {fileID: 8811213769264633897}
-  animator: {fileID: 8811213769264633896}
+  animator: {fileID: 6469780515351488592}
   runSpeed: 22
 --- !u!114 &8811213769264633899
 MonoBehaviour:
@@ -571,7 +571,7 @@ MonoBehaviour:
   firePoint: {fileID: 8811213769349285992}
   playerBullet: {fileID: 992400587785795940, guid: 3d18c0b0c5e6d3342b13959f99aa3f5c, type: 3}
   Force: 30
-  animator: {fileID: 8811213769264633896}
+  animator: {fileID: 6469780515351488592}
   fightType: 3
   sword: {fileID: 0}
   speer: {fileID: 3776956743525212241, guid: 016b4dc401457d348a4ec3eb3dd99229, type: 3}
