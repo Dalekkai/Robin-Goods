@@ -634,6 +634,7 @@ GameObject:
   - component: {fileID: 7754282071313772724}
   - component: {fileID: 2058022301}
   - component: {fileID: 2058022313}
+  - component: {fileID: 536983979176927964}
   m_Layer: 0
   m_Name: Yizhu
   m_TagString: Player
@@ -842,6 +843,10 @@ MonoBehaviour:
   animator: {fileID: 7349429969448270979}
   fightType: 2
   sword: {fileID: 4892458174002574818}
+  speer: {fileID: 0}
+  speerRB: {fileID: 0}
+  throwpoint: {fileID: 0}
+  speerPoint: {fileID: 0}
 --- !u!114 &7754282071313772724
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -882,6 +887,18 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: dceebd9dc446ce141a257e7f03810d4a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &536983979176927964
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8811213769264633901}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 77ba9d2f8177bd64d893db846a8dd2fd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1 &8811213769281133891

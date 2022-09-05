@@ -812,6 +812,7 @@ GameObject:
   - component: {fileID: 8811213769264633897}
   - component: {fileID: 8811213769264633898}
   - component: {fileID: 8811213769264633899}
+  - component: {fileID: 645345603787614857}
   m_Layer: 0
   m_Name: ShuarHead
   m_TagString: Player
@@ -1027,6 +1028,18 @@ MonoBehaviour:
   speerRB: {fileID: 6873506754786035730, guid: 1bcae342380750b458d2c015db184247, type: 3}
   throwpoint: {fileID: 1446583190297181630}
   speerPoint: {fileID: 2226286021673360952}
+--- !u!114 &645345603787614857
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8811213769264633901}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 77ba9d2f8177bd64d893db846a8dd2fd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &8811213769281133891
 GameObject:
   m_ObjectHideFlags: 0
