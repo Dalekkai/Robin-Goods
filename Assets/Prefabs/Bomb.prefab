@@ -14,7 +14,7 @@ GameObject:
   - component: {fileID: 466323246356858213}
   - component: {fileID: 5748243975728157626}
   m_Layer: 0
-  m_Name: Rock
+  m_Name: Bomb
   m_TagString: Death
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -136,3 +136,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fb5737a199e2246498159bb92bc863cc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  explosion: {fileID: 8791178270807342727, guid: a09b401ba17d97c46b0d898223939345, type: 3}

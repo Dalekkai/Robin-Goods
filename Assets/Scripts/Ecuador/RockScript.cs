@@ -5,9 +5,16 @@ using UnityEngine;
 public class RockScript : MonoBehaviour
 {
     // Start is called before the first frame update
+    public GameObject explosion;
     void Start()
     {
-        Destroy(gameObject, 5);
+        
+    }
+
+    private void OnTriggerEnter2D(Collider2D other) 
+    {
+        Destroy(gameObject);
+        Instantiate(explosion, transform.position, Quaternion.identity);
     }
 
 }
