@@ -18,7 +18,7 @@ public class Boss : MonoBehaviour
     // TODO: Healthbar scale, a check if dead.
     void Start()
     {
-        
+
     }
 
     // Update is called once per frame

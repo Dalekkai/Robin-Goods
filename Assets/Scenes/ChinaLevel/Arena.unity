@@ -1404,6 +1404,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 2058022301, guid: daf6ed2c39e81734892a96c0dfc1d6e5, type: 3}
+      propertyPath: healthBar
+      value: 
+      objectReference: {fileID: 1264309864}
     - target: {fileID: 7754282071313772724, guid: daf6ed2c39e81734892a96c0dfc1d6e5, type: 3}
       propertyPath: healthBar
       value: 
@@ -2764,6 +2768,7 @@ MonoBehaviour:
   firePoint: {fileID: 5110211848394623286}
   force: 10
   shotTime: 2
+  animator: {fileID: 5110211848877658420}
   player: {fileID: 1409593850}
   isFlipped: 0
 --- !u!4 &5110211848877658427
