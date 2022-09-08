@@ -1404,45 +1404,9 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 2058022301, guid: daf6ed2c39e81734892a96c0dfc1d6e5, type: 3}
-      propertyPath: healthBar
-      value: 
-      objectReference: {fileID: 1264309864}
-    - target: {fileID: 7754282071313772724, guid: daf6ed2c39e81734892a96c0dfc1d6e5, type: 3}
-      propertyPath: healthBar
-      value: 
-      objectReference: {fileID: 1264309864}
-    - target: {fileID: 8811213768390376145, guid: daf6ed2c39e81734892a96c0dfc1d6e5, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: -0.17
-      objectReference: {fileID: 0}
-    - target: {fileID: 8811213768390376145, guid: daf6ed2c39e81734892a96c0dfc1d6e5, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: -3.64
-      objectReference: {fileID: 0}
-    - target: {fileID: 8811213769264633897, guid: daf6ed2c39e81734892a96c0dfc1d6e5, type: 3}
-      propertyPath: animator
-      value: 
-      objectReference: {fileID: 1172628946}
-    - target: {fileID: 8811213769264633898, guid: daf6ed2c39e81734892a96c0dfc1d6e5, type: 3}
-      propertyPath: animator
-      value: 
-      objectReference: {fileID: 1172628946}
     - target: {fileID: 8811213769264633900, guid: daf6ed2c39e81734892a96c0dfc1d6e5, type: 3}
       propertyPath: m_RootOrder
       value: 4
-      objectReference: {fileID: 0}
-    - target: {fileID: 8811213769264633900, guid: daf6ed2c39e81734892a96c0dfc1d6e5, type: 3}
-      propertyPath: m_LocalScale.x
-      value: 0.2
-      objectReference: {fileID: 0}
-    - target: {fileID: 8811213769264633900, guid: daf6ed2c39e81734892a96c0dfc1d6e5, type: 3}
-      propertyPath: m_LocalScale.y
-      value: 0.2
-      objectReference: {fileID: 0}
-    - target: {fileID: 8811213769264633900, guid: daf6ed2c39e81734892a96c0dfc1d6e5, type: 3}
-      propertyPath: m_LocalScale.z
-      value: 0.2
       objectReference: {fileID: 0}
     - target: {fileID: 8811213769264633900, guid: daf6ed2c39e81734892a96c0dfc1d6e5, type: 3}
       propertyPath: m_LocalPosition.x
@@ -1488,39 +1452,12 @@ PrefabInstance:
       propertyPath: m_Name
       value: Yizhu
       objectReference: {fileID: 0}
-    - target: {fileID: 8811213769264633909, guid: daf6ed2c39e81734892a96c0dfc1d6e5, type: 3}
-      propertyPath: m_Radius
-      value: 1.8372434
-      objectReference: {fileID: 0}
-    - target: {fileID: 8811213769264633909, guid: daf6ed2c39e81734892a96c0dfc1d6e5, type: 3}
-      propertyPath: m_Offset.y
-      value: -1.2302995
-      objectReference: {fileID: 0}
-    - target: {fileID: 8811213770074541445, guid: daf6ed2c39e81734892a96c0dfc1d6e5, type: 3}
-      propertyPath: m_Size.y
-      value: 0.97546893
-      objectReference: {fileID: 0}
-    - target: {fileID: 8811213770074541445, guid: daf6ed2c39e81734892a96c0dfc1d6e5, type: 3}
-      propertyPath: m_Offset.y
-      value: -0.012265376
-      objectReference: {fileID: 0}
     - target: {fileID: 8811213770074541446, guid: daf6ed2c39e81734892a96c0dfc1d6e5, type: 3}
       propertyPath: healthBar
       value: 
       objectReference: {fileID: 1264309864}
-    - target: {fileID: 8811213770074541447, guid: daf6ed2c39e81734892a96c0dfc1d6e5, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 0.13
-      objectReference: {fileID: 0}
-    m_RemovedComponents:
-    - {fileID: 2058022301, guid: daf6ed2c39e81734892a96c0dfc1d6e5, type: 3}
-    - {fileID: 7754282071313772724, guid: daf6ed2c39e81734892a96c0dfc1d6e5, type: 3}
+    m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: daf6ed2c39e81734892a96c0dfc1d6e5, type: 3}
---- !u!95 &1172628946 stripped
-Animator:
-  m_CorrespondingSourceObject: {fileID: 7349429969448270979, guid: daf6ed2c39e81734892a96c0dfc1d6e5, type: 3}
-  m_PrefabInstance: {fileID: 1172628945}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1255910556
 GameObject:
   m_ObjectHideFlags: 0
