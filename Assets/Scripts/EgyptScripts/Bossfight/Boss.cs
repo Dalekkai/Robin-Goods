@@ -8,7 +8,6 @@ public class Boss : MonoBehaviour
     public Transform firePoint;
     public float force;
     public float shotTime;
-    public Animator animator;
     public Transform player;
     public bool isFlipped = false;
 
@@ -33,7 +32,6 @@ public class Boss : MonoBehaviour
         (bookBullet, firePoint.position, Quaternion.identity);
         BulletIns.GetComponent<Rigidbody2D>().velocity = -transform.right *force;
         Invoke("Shoot", shotTime);
-        animator.SetBool("attackPlayer", true);
     }
 
     public void LookAtPlayer() //Changes the scale to look at player. Used in the Animatior Script.
