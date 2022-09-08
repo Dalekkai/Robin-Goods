@@ -356,7 +356,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8811213768390376146}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.14, y: -3.62, z: 0.0341145}
+  m_LocalPosition: {x: -0.17, y: -3.64, z: 0.0341145}
   m_LocalScale: {x: 5, y: 5, z: 5}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -631,8 +631,6 @@ GameObject:
   - component: {fileID: 8811213769264633897}
   - component: {fileID: 8811213769264633898}
   - component: {fileID: 8811213769264633899}
-  - component: {fileID: 7754282071313772724}
-  - component: {fileID: 2058022301}
   - component: {fileID: 2058022313}
   - component: {fileID: 536983979176927964}
   m_Layer: 0
@@ -651,7 +649,7 @@ Transform:
   m_GameObject: {fileID: 8811213769264633901}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -43.237, y: -0.419, z: -0.0068229}
-  m_LocalScale: {x: 0.21768, y: 0.21768, z: 0.21768}
+  m_LocalScale: {x: 0.2, y: 0.2, z: 0.2}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 8811213768454067148}
@@ -731,9 +729,9 @@ CircleCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -0.0115177035, y: -1.3439411}
+  m_Offset: {x: -0.0115177035, y: -1.2302995}
   serializedVersion: 2
-  m_Radius: 1.950885
+  m_Radius: 1.8372434
 --- !u!95 &7349429969448270979
 Animator:
   serializedVersion: 4
@@ -847,36 +845,6 @@ MonoBehaviour:
   speerRB: {fileID: 0}
   throwpoint: {fileID: 0}
   speerPoint: {fileID: 0}
---- !u!114 &7754282071313772724
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8811213769264633901}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 92cff233581d2b74495f27541a6e52bc, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  maxHealth: 10
-  currentHealth: 0
-  healthBar: {fileID: 0}
---- !u!114 &2058022301
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8811213769264633901}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 92cff233581d2b74495f27541a6e52bc, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  maxHealth: 10
-  currentHealth: 0
-  healthBar: {fileID: 0}
 --- !u!114 &2058022313
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1294,7 +1262,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8811213770074541496}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.020008087, y: -0.13500005, z: 0.0341145}
+  m_LocalPosition: {x: -0.020008087, y: 0.13, z: 0.0341145}
   m_LocalScale: {x: 5.1875, y: 6.5585938, z: 5}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1314,8 +1282,8 @@ CapsuleCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
-  m_Size: {x: 0.5, y: 1}
+  m_Offset: {x: 0, y: -0.012265376}
+  m_Size: {x: 0.5, y: 0.97546893}
   m_Direction: 0
 --- !u!114 &8811213770074541446
 MonoBehaviour:
