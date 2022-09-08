@@ -392,9 +392,9 @@ GameObject:
   - component: {fileID: 8811213769264633897}
   - component: {fileID: 8811213769264633898}
   - component: {fileID: 8811213769264633899}
-  - component: {fileID: 332631101}
   - component: {fileID: 332631109}
   - component: {fileID: 3827893461861439556}
+  - component: {fileID: 1357128503200920893}
   m_Layer: 0
   m_Name: Shuar
   m_TagString: Player
@@ -606,21 +606,6 @@ MonoBehaviour:
   speerRB: {fileID: 6873506754786035730, guid: 1bcae342380750b458d2c015db184247, type: 3}
   throwpoint: {fileID: 624693826}
   speerPoint: {fileID: 1820657025}
---- !u!114 &332631101
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8811213769264633901}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 92cff233581d2b74495f27541a6e52bc, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  maxHealth: 10
-  currentHealth: 0
-  healthBar: {fileID: 0}
 --- !u!114 &332631109
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -643,6 +628,18 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 77ba9d2f8177bd64d893db846a8dd2fd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &1357128503200920893
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8811213769264633901}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dceebd9dc446ce141a257e7f03810d4a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1 &8811213769281133891
