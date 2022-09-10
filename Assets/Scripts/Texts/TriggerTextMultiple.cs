@@ -15,10 +15,12 @@ public class TriggerTextMultiple : MonoBehaviour
     public GameObject triggerText;
     public GameObject holdPlayer;
     public GameObject triggerObject;
+    public GameObject holdSliding;
 
     private void Start()
     {
         StartCoroutine(TextRoutine());
+        holdSliding.SetActive(true);
     }
     private void Update()
     {
@@ -64,6 +66,7 @@ public class TriggerTextMultiple : MonoBehaviour
             player.GetComponent<Animator>().enabled = true;
             triggerText.SetActive(false);
             holdPlayer.SetActive(false);
+            holdSliding.SetActive(false);
             triggerObject.SetActive(false);
         }
     }

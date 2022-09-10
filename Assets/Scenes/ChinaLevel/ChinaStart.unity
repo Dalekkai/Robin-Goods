@@ -410,6 +410,10 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8811213769264633899, guid: daf6ed2c39e81734892a96c0dfc1d6e5, type: 3}
+      propertyPath: sword
+      value: 
+      objectReference: {fileID: 989534977}
+    - target: {fileID: 8811213769264633899, guid: daf6ed2c39e81734892a96c0dfc1d6e5, type: 3}
       propertyPath: m_Enabled
       value: 0
       objectReference: {fileID: 0}
@@ -495,6 +499,11 @@ GameObject:
 --- !u!95 &989534976 stripped
 Animator:
   m_CorrespondingSourceObject: {fileID: 7349429969448270979, guid: daf6ed2c39e81734892a96c0dfc1d6e5, type: 3}
+  m_PrefabInstance: {fileID: 989534974}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &989534977 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 5730509475099289144, guid: daf6ed2c39e81734892a96c0dfc1d6e5, type: 3}
   m_PrefabInstance: {fileID: 989534974}
   m_PrefabAsset: {fileID: 0}
 --- !u!1 &1010677730
