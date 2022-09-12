@@ -9,7 +9,8 @@ public class RockSpawner : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        SpawnRock();
+        Invoke("SpawnRock", Random.Range(0f, 1.5f));
+
     }
 
     void SpawnRock()
