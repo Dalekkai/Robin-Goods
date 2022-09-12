@@ -98,8 +98,8 @@ CapsuleCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0.3200736, y: -1.0106618}
-  m_Size: {x: 0.8396807, y: 5.975206}
+  m_Offset: {x: 0.3200736, y: -0.02}
+  m_Size: {x: 1.15, y: 9.87}
   m_Direction: 0
 --- !u!1 &8239951604614033246
 GameObject:
@@ -893,7 +893,7 @@ MonoBehaviour:
   Force: 30
   animator: {fileID: 7349429969448270979}
   fightType: 2
-  sword: {fileID: 5730509475099289144}
+  sword: {fileID: 1129862718509343357}
   speer: {fileID: 0}
   speerRB: {fileID: 0}
   throwpoint: {fileID: 0}

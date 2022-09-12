@@ -17,13 +17,13 @@ public class Boss : MonoBehaviour
     // TODO: Healthbar scale, a check if dead.
     void Start()
     {
-
+        Shoot();
     }
 
     // Update is called once per frame
     void Update()
     {
-
+        LookAtPlayer();
     }
     
     public void Shoot() //Shoots books at the faced direction 
