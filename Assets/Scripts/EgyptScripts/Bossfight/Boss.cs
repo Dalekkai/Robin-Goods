@@ -11,7 +11,7 @@ public class Boss : MonoBehaviour
     public Transform player;
     public bool isFlipped = false;
 
-    public float speed = 2f;
+    public float speed = 0.1f;
 
     Rigidbody2D rb;
 
