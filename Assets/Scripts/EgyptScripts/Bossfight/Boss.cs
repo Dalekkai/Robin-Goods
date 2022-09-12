@@ -11,19 +11,26 @@ public class Boss : MonoBehaviour
     public Transform player;
     public bool isFlipped = false;
 
+    public float speed = 2f;
+
+    Rigidbody2D rb;
+
 
 
 
     // TODO: Healthbar scale, a check if dead.
     void Start()
     {
+        rb = gameObject.GetComponent<Rigidbody2D>();
         Shoot();
+
     }
 
     // Update is called once per frame
     void Update()
     {
         LookAtPlayer();
+        Run();
     }
     
     public void Shoot() //Shoots books at the faced direction 
@@ -51,5 +58,12 @@ public class Boss : MonoBehaviour
             transform.Rotate(0f, 180f, 0f);
             isFlipped = true;
         }
+    }
+
+    void Run()
+    {
+        Vector2 target = new Vector2(player.position.x, rb.position.y);
+        Vector2 newPos = Vector2.MoveTowards(rb.position, target, speed * Time.fixedDeltaTime);
+        rb.MovePosition(newPos);
     }
 }
