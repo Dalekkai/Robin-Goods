@@ -8,7 +8,7 @@ public class ShuarSpeer : MonoBehaviour
     void Start()
     {
 
-        Destroy(gameObject, 10f);
+        Destroy(gameObject, 3f);
     }
 
 }

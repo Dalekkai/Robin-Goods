@@ -64,7 +64,7 @@ public class PlayerAttack : MonoBehaviour
             (speerRB, throwpoint.position, Quaternion.identity);
 
             //Prevents from bein scaled to big
-            SpeerIns.transform.localScale = new Vector3(6,0.1f,2);
+            SpeerIns.transform.localScale = new Vector3(4.5f,0.1f,2);
 
             //Adds a impulse to the right side of the warrior
             Vector2 direction = transform.right + new Vector3(0, 0.1f, 0);
