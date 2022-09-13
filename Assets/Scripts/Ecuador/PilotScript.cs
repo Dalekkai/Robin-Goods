@@ -8,6 +8,11 @@ public class PilotScript : MonoBehaviour
 
     public bool isFlipped = false;
 
+    public ParticleSystem smoke;
+    public ParticleSystem smoke1;
+     
+
+    private int damage = 0;
     // Start is called before the first frame update
     void Start()
     {
@@ -41,11 +46,21 @@ public class PilotScript : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D other) 
     {
-        //TODO
+        AddSmoke();
     }
 
     void AddSmoke()
     {
-        //TODO
+        
+        if(damage == 0)
+        {
+            smoke.Play();
+
+        }
+        else if(damage== 1)
+        {
+            smoke1.Play();
+        }
+        damage ++;
     }
 }
