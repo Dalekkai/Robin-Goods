@@ -21,6 +21,7 @@ TagManager:
   - Speer
   - ThrownSpeer
   - Rope
+  - SmallBomb
   layers:
   - Default
   - TransparentFX

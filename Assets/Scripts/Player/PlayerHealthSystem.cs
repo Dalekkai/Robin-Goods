@@ -36,6 +36,9 @@ public class PlayerHealthSystem : MonoBehaviour
            case "FighterHit": // The dmg from fighter hits 
            TakeDamage(4);
            break;
+           case "SmallBomb": // The dmg from fighter hits 
+           TakeDamage(7);
+           break;
            case "Death":
            LevelLoader.Respawn();
            break;
