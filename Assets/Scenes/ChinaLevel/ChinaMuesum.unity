@@ -7263,7 +7263,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 444242756}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 38.9924, y: -36.1, z: -10.006823}
+  m_LocalPosition: {x: 38.8068, y: -36.1, z: -10.006823}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -8105,6 +8105,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5fcdda8cd5e23d5498ba3e8ead40462d, type: 3}
+--- !u!1 &509973860 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6590554565968767452, guid: 5fcdda8cd5e23d5498ba3e8ead40462d, type: 3}
+  m_PrefabInstance: {fileID: 509973859}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &532515633
 GameObject:
   m_ObjectHideFlags: 0
@@ -9586,7 +9591,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: -2
   m_Sprite: {fileID: 21300000, guid: 6d1df8a73ab979c42885fcc48c893991, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -10580,7 +10585,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7939530109888432673, guid: f3879b850b646e440b83f10774546899, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 38.9924
+      value: 38.8068
       objectReference: {fileID: 0}
     - target: {fileID: 7939530109888432673, guid: f3879b850b646e440b83f10774546899, type: 3}
       propertyPath: m_LocalPosition.y
@@ -11397,7 +11402,7 @@ MonoBehaviour:
   uiObject: {fileID: 1702531583}
   player: {fileID: 1172628947}
   playerHold: {fileID: 496093058}
-  music: {fileID: 676506542}
+  music: {fileID: 509973860}
   sound: {fileID: 676506542}
 --- !u!61 &1290892480
 BoxCollider2D:

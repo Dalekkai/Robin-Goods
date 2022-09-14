@@ -7369,7 +7369,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 444242756}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -25.349447, y: -91, z: -10.006823}
+  m_LocalPosition: {x: -25.422485, y: -91, z: -10.006823}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -10671,7 +10671,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7939530109888432673, guid: f3879b850b646e440b83f10774546899, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -25.349447
+      value: -25.422485
       objectReference: {fileID: 0}
     - target: {fileID: 7939530109888432673, guid: f3879b850b646e440b83f10774546899, type: 3}
       propertyPath: m_LocalPosition.y
@@ -10719,7 +10719,7 @@ PrefabInstance:
       objectReference: {fileID: 332631102}
     - target: {fileID: 7939530109888432678, guid: f3879b850b646e440b83f10774546899, type: 3}
       propertyPath: m_Lens.m_SensorSize.x
-      value: 1.7777778
+      value: 1.7838784
       objectReference: {fileID: 0}
     - target: {fileID: 7939530109888432678, guid: f3879b850b646e440b83f10774546899, type: 3}
       propertyPath: m_Lens.OrthographicSize
@@ -15938,7 +15938,7 @@ MonoBehaviour:
   uiObject: {fileID: 2142631800}
   player: {fileID: 332631100}
   playerHold: {fileID: 1462822582}
-  music: {fileID: 409613350}
+  music: {fileID: 2077829690}
   sound: {fileID: 409613350}
 --- !u!61 &1912250799
 BoxCollider2D:
@@ -16677,6 +16677,11 @@ Transform:
   m_Father: {fileID: 1225282160}
   m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &2077829690 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6590554565968767452, guid: 5fcdda8cd5e23d5498ba3e8ead40462d, type: 3}
+  m_PrefabInstance: {fileID: 505854083}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &2100424767
 GameObject:
   m_ObjectHideFlags: 0
