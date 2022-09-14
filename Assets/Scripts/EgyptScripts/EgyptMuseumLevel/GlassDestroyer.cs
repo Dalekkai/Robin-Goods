@@ -33,5 +33,24 @@ public class GlassDestroyer : MonoBehaviour
             break;
         }
     }
+    private void OnTriggerExit2D(Collider2D other) 
+    {
+        if(other.gameObject.tag == "Sword")
+        {
+            Destroy(gameObject);
+            glassShatters.Play();
+            Crash.Play();
+        }
+    }
+
+    private void OnTriggerStay2D(Collider2D other) 
+    {
+    if(other.gameObject.tag == "Sword")
+        {
+            Destroy(gameObject);
+            glassShatters.Play();
+            Crash.Play();
+        }    
+    }
 
 }
