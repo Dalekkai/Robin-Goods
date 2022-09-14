@@ -18,15 +18,9 @@ public class Soilder : MonoBehaviour
         Shoot();
     }
 
-    // Update is called once per frame
-    void Update()
-    {
-
-    }
-    
-    public void Shoot() //Shoots bullets at the faced direction 
-                        //TODO shoots only to the left side
-                        //Cannot use ShotTime for some reason. Hard code fix :P
+    //Shoots bullets to the left side to allow attacking from behind
+    //Cannot use ShotTime for some reason. Hard code fix :P
+    public void Shoot() 
     {
         GameObject BulletIns = Instantiate
         (bullet, firePoint.position, Quaternion.identity);

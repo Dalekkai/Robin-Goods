@@ -15,7 +15,7 @@ public class EnemyHealthSystem : MonoBehaviour
         currentHealth = maxHealth;
     }
 
-    // Update is called once per frame
+    //Checks if enemy is still alive
     void Update()
     {
         if(currentHealth <= 0){
@@ -25,6 +25,7 @@ public class EnemyHealthSystem : MonoBehaviour
     }
 
 
+    //Lets the enemy take damage from different weapons
     private void OnTriggerEnter2D(Collider2D other) 
     {
         
@@ -58,6 +59,7 @@ public class EnemyHealthSystem : MonoBehaviour
         
     }
 
+    //Applys the damage
     void TakeDamage(int damage)
     {
         currentHealth -= damage;

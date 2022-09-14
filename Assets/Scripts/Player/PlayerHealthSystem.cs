@@ -14,7 +14,7 @@ public class PlayerHealthSystem : MonoBehaviour
         healthBar.SetMaxHealth(maxHealth);
     }
 
-    // Update is called once per frame
+
     void Update()
     {
          if(currentHealth <= 0){
@@ -22,7 +22,7 @@ public class PlayerHealthSystem : MonoBehaviour
         }
     }
 
-
+    // Checks how much dmg needs to be applyed
     private void OnTriggerEnter2D(Collider2D other) 
     {
        switch(other.gameObject.tag)
@@ -48,6 +48,7 @@ public class PlayerHealthSystem : MonoBehaviour
 
     }
 
+    //Applys the dmg
     void TakeDamage(int damage)
     {
         currentHealth -= damage;

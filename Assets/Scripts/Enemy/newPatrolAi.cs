@@ -15,7 +15,7 @@ public class newPatrolAi : MonoBehaviour
         bc2d = GetComponent<BoxCollider2D>();
     }
 
-    // Update is called once per frame
+    // This Scripts is from a YouTube tutorial
     void Update()
     {
         if(isFacingRight())
@@ -35,7 +35,8 @@ public class newPatrolAi : MonoBehaviour
     }
 
     private bool isFacingRight()
-    {
-        return transform.localScale.x > Mathf.Epsilon; //Epsilon is cleaner than 0.000f
+    {   
+        //Epsilon is cleaner than 0.000f
+        return transform.localScale.x > Mathf.Epsilon; 
     }
 }

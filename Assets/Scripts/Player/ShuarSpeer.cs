@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class ShuarSpeer : MonoBehaviour
 {
-    // Start is called before the first frame update
+    //Destroys the speer after 3 secs 
     void Start()
     {
 

@@ -4,13 +4,8 @@ using UnityEngine;
 
 public class SpeerDestroyer : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
 
-    // Update is called once per frame
+    //Destroys the speer when thrown
     void Update()
     {
         if(Input.GetButtonDown("Fire1"))

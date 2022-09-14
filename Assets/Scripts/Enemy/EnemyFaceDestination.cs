@@ -7,7 +7,7 @@ public class EnemyFaceDestination : MonoBehaviour
 {
     public AIPath aiPath;
 
-    // Update is called once per frame
+    // This scripts is from a YouTube tutorial
     void Update()
     {
         if(aiPath.desiredVelocity.x >= 0.01f)

@@ -9,7 +9,9 @@ public class PlayerBulletBehaviour : MonoBehaviour
         Destroy(gameObject, 20); 
 
     }
-    private void OnTriggerEnter2D(Collider2D other) //Lets the bullet fly through enemys. Otherways gets destroyed
+
+     //Lets the bullet fly through enemys. Otherways gets destroyed
+    private void OnTriggerEnter2D(Collider2D other)
     {
         switch(other.gameObject.tag)
         {
