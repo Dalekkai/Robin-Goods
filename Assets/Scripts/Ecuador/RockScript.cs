@@ -4,17 +4,18 @@ using UnityEngine;
 
 public class RockScript : MonoBehaviour
 {
-    // Start is called before the first frame update
+
     public GameObject explosion;
-    void Start()
-    {
-        
-    }
 
     private void OnTriggerEnter2D(Collider2D other) 
     {
-        Destroy(gameObject);
-        Instantiate(explosion, transform.position, Quaternion.identity);
+        if(other.gameObject.tag == "Death"){Destroy(gameObject);} 
+        else 
+        {
+            Destroy(gameObject);
+            Instantiate(explosion, transform.position, Quaternion.identity);
+        }
+        
     }
 
 }
