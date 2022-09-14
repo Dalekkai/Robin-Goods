@@ -4,12 +4,11 @@ using UnityEngine;
 
 public class GlassDestroyer : MonoBehaviour
 {
-    // Destroy the object on bullet impact and spawn particle system and sound
-    // TODO Particle sytem and audioclip play
+
     public ParticleSystem glassShatters;
     public AudioSource Crash;
 
-
+    // Destroys the object on weapon impact and spawn particle system and sound
     private void OnTriggerEnter2D(Collider2D other) 
     {
 

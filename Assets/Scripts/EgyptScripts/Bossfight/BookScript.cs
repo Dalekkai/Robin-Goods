@@ -4,19 +4,15 @@ using UnityEngine;
 
 public class BookScript : MonoBehaviour
 {
-    // Start is called before the first frame update
+
     void Start()
     {
+        //Destroys the object after 10 secs to save memory and performance
         Destroy(gameObject, 10f);
     }
 
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
-
-        private void OnTriggerEnter2D(Collider2D other) //Destroys the bullet after impact
+    //Destroys the book after impact
+        private void OnTriggerEnter2D(Collider2D other) 
     {
         switch(other.gameObject.tag)
         {

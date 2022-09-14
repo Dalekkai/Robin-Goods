@@ -6,6 +6,7 @@ public class laserRemover : MonoBehaviour
 {
     public float timeToDestroy;
 
+    //Destroys the laser after timeToDestroy
     private void Start() 
     {
         Destroy(gameObject, timeToDestroy);    

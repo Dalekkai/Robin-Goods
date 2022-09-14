@@ -4,15 +4,11 @@ using UnityEngine;
 
 public class Explosion : MonoBehaviour
 {
-    // Start is called before the first frame update
+    // Destroys the explosion after 0.4 secs to prevent player form getting damage
+    //longer then needed
     void Start()
     {
         Destroy(gameObject, 0.4f);
     }
 
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
 }

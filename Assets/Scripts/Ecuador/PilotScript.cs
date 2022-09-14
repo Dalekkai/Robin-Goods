@@ -13,19 +13,15 @@ public class PilotScript : MonoBehaviour
      
 
     private int damage = 0;
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
 
-    // Update is called once per frame
+
     void Update()
     {
         LookAtPlayer();
     }
 
-        public void LookAtPlayer() //Changes the scale to look at player. Used in the Animatior Script.
+    //Lets the pilot look at the player by changing the scale on the y axe
+        public void LookAtPlayer() 
     {
         Vector3 flipped = transform.localScale;
         flipped.z *= -1f;
@@ -49,6 +45,7 @@ public class PilotScript : MonoBehaviour
         AddSmoke();
     }
 
+    //Adds smoke effects after the first and second hit
     void AddSmoke()
     {
         

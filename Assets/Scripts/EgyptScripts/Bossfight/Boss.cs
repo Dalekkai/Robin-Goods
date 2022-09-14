@@ -15,10 +15,7 @@ public class Boss : MonoBehaviour
 
     Rigidbody2D rb;
 
-
-
-
-    // TODO: Healthbar scale, a check if dead.
+    //Starts the shooting loop
     void Start()
     {
         rb = gameObject.GetComponent<Rigidbody2D>();
@@ -26,7 +23,6 @@ public class Boss : MonoBehaviour
 
     }
 
-    // Update is called once per frame
     void Update()
     {
         LookAtPlayer();
@@ -41,7 +37,7 @@ public class Boss : MonoBehaviour
         Invoke("Shoot", shotTime);
     }
 
-    public void LookAtPlayer() //Changes the scale to look at player. Used in the Animatior Script.
+    public void LookAtPlayer() //Changes the scale to look at player. 
     {
         Vector3 flipped = transform.localScale;
         flipped.z *= -1f;
@@ -60,6 +56,7 @@ public class Boss : MonoBehaviour
         }
     }
 
+    //Moves the rb to the target/ player
     void Run()
     {
         Vector2 target = new Vector2(player.position.x, rb.position.y);

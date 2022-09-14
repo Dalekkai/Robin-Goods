@@ -5,13 +5,9 @@ using UnityEngine;
 public class DeathCheck : MonoBehaviour
 {
     public EnemyHealthSystem hs;
-    // Start is called before the first frame update
-    void Start()
-    {
-       
-    }
 
-    // Update is called once per frame
+
+    //Checks if the boss is dead to open the door to next lvl
     void Update()
     {
         if(hs.isDead){Destroy(gameObject);}

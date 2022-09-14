@@ -4,10 +4,11 @@ using UnityEngine;
 
 public class EasterEgg : MonoBehaviour
 {
-    //TODO: Spawn Hat png, play sound 
-    public GameObject Hat; //The prefab will play the sound on awake --> no code soloution
+
+    public GameObject Hat; 
     bool hatThere = false;
 
+    //Spawns the Hat when trigger is entered
     private void OnTriggerEnter2D(Collider2D other) 
     {
         if(other.gameObject.tag == "Player" && !hatThere)

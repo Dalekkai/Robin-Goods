@@ -7,6 +7,7 @@ public class LevelProgressionLogic : MonoBehaviour
     bool gotTool = false;
     public CanvasGroup can;
 
+    //Checks if the player has the item to move to the vent
     private void OnTriggerEnter2D(Collider2D other) {
         switch(other.tag)
         {
