@@ -95,9 +95,6 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/EcuadorLevel/EcuadorArena.unity
     guid: 2c87977c4469d734793bd34f9fb98b26
-  - enabled: 0
-    path: Assets/Scenes/EcuadorLevel/BustLvlEcuador.unity
-    guid: 8913d96b8e18b0248903beaf4fe5a667
   - enabled: 1
     path: Assets/Scenes/Transitions/Ecuador/TransitionEcuador3.unity
     guid: f42d3c22707217f4cb2c04c38b8d6c02
