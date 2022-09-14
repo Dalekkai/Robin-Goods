@@ -13,7 +13,7 @@ public class EndGame : MonoBehaviour
 
     public IEnumerator EndOfGame()
     {
-        yield return new WaitForSeconds(5);
+        yield return new WaitForSeconds(13);
         SceneManager.LoadScene("Menu");
     }
 }
